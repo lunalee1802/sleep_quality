@@ -49,18 +49,18 @@ After the initial SQL preparation, Python was used to perform data visualization
   
   - **Distribution of Sleep**:
   
-    ![Distribution of Sleep Duration](https://github.com/lunalee1802/sleep_quality/blob/main/images/Distribution_of_Sleep_Duration.PNG)
+    ![Distribution of Sleep Duration](https://raw.githubusercontent.com/lunalee1802/sleep_quality/main/images/Distribution_of_Sleep_Duration.PNG)
   
   - **Average Quality of Sleep by Physical Activity Level**:
   
-    ![Average Quality of Sleep by Physical Activity Level](https://github.com/lunalee1802/sleep_quality/blob/main/images/Average_Quality_of_Sleep_by_Physical_Activity_Level.PNG)
+    ![Average Quality of Sleep by Physical Activity Level](https://raw.githubusercontent.com/lunalee1802/sleep_quality/main/images/Average_Quality_of_Sleep_by_Physical_Activity_Level.PNG)
 
 #### 3.2 Correlation Analysis and Hypothesis Testing
 - Created a correlation matrix heatmap to observe relationships between numeric variables.
 
   - **Correlation Matrix**:
   
-    ![Correlation Matrix](https://github.com/lunalee1802/sleep_quality/blob/main/images/Correlation_Matrix.PNG)
+    ![Correlation Matrix](https://raw.githubusercontent.com/lunalee1802/sleep_quality/main/images/Correlation_Matrix.PNG)
 
 #### 3.3 Decision Tree Modeling
 - **Model Training**: Trained a Decision Tree Regressor using key features like `sleep_duration`, `stress_level`, and `physical_activity_level`.
@@ -72,7 +72,7 @@ After the initial SQL preparation, Python was used to perform data visualization
 
   - **Feature Importance in Predicting Sleep Quality**:
   
-    ![Feature Importance in Predicting Sleep Quality](https://github.com/lunalee1802/sleep_quality/blob/main/images/Feature_Importance_in_Predicting_Sleep_Quality.PNG)
+    ![Feature Importance in Predicting Sleep Quality](https://raw.githubusercontent.com/lunalee1802/sleep_quality/main/images/Feature_Importance_in_Predicting_Sleep_Quality.PNG)
 
 ---
 
@@ -82,11 +82,11 @@ After the initial SQL preparation, Python was used to perform data visualization
 
 1. **Sleep Duration and Quality**:
    - **Sleep Duration Distribution**: Most individuals reported sleeping between 6 and 8 hours, which aligns with higher sleep quality.
-   - ![Quality of Sleep by Sleep Duration](https://github.com/lunalee1802/sleep_quality/blob/main/images/Quality_of_Sleep_by_Sleep_Duration.PNG)
+   - ![Quality of Sleep by Sleep Duration](https://raw.githubusercontent.com/lunalee1802/sleep_quality/main/images/Quality_of_Sleep_by_Sleep_Duration.PNG)
 
 2. **Stress Level and Sleep Quality**:
    - High stress levels were associated with lower sleep quality.
-   - ![Quality of Sleep by Stress Level](https://github.com/lunalee1802/sleep_quality/blob/main/images/Quality_of_Sleep_by_Stress_Level.PNG)
+   - ![Quality of Sleep by Stress Level](https://raw.githubusercontent.com/lunalee1802/sleep_quality/main/images/Quality_of_Sleep_by_Stress_Level.PNG)
 
 3. **Correlation and Feature Importance**:
    - Stress level showed a strong negative correlation with sleep quality.
