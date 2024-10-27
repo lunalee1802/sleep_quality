@@ -1,4 +1,3 @@
-
 # Sleep Quality Analysis Project
 
 This project analyzes factors affecting sleep quality using SQL for data preparation and Python for in-depth analysis and modeling. The goal is to identify key lifestyle and health metrics that influence sleep quality and build a predictive model.
@@ -47,12 +46,21 @@ After the initial SQL preparation, Python was used to perform data visualization
 #### 3.1 Data Loading and Exploration
 - Loaded the cleaned CSV file and conducted exploratory data analysis (EDA) to understand the distribution and relationships between variables.
 - Generated visualizations for key variables:
-  - **Sleep Duration Distribution**: Histogram to see the general sleep duration pattern.
-  - **Relationship with Sleep Quality**: Analyzed sleep quality in relation to physical activity level, stress level, and other metrics.
+  
+  - **Distribution of Sleep Duration**:
+  
+    ![Distribution of Sleep Duration](Distribution%20of%20Sleep%20Duration.PNG)
+  
+  - **Average Quality of Sleep by Physical Activity Level**:
+  
+    ![Average Quality of Sleep by Physical Activity Level](Average%20Quality%20of%20Sleep%20by%20Physical%20Activity%20Level.PNG)
 
 #### 3.2 Correlation Analysis and Hypothesis Testing
 - Created a correlation matrix heatmap to observe relationships between numeric variables.
-- Performed a hypothesis test to determine if physical activity significantly affects sleep quality.
+
+  - **Correlation Matrix**:
+  
+    ![Correlation Matrix](Correlation%20Matrix.PNG)
 
 #### 3.3 Decision Tree Modeling
 - **Model Training**: Trained a Decision Tree Regressor using key features like `sleep_duration`, `stress_level`, and `physical_activity_level`.
@@ -62,40 +70,40 @@ After the initial SQL preparation, Python was used to perform data visualization
 #### 3.4 Feature Importance Analysis
 - Visualized feature importance to understand which factors most significantly impact sleep quality predictions.
 
-**Python Notebook**: [Jupyter Notebook file](https://github.com/lunalee1802/sleep_quality/blob/main/sleep%20qulatiy.ipynb)
+  - **Feature Importance in Predicting Sleep Quality**:
+  
+    ![Feature Importance in Predicting Sleep Quality](Feature%20Importance%20in%20Predicting%20Sleep%20Quality.PNG)
 
 ---
 
 ## 4. Results and Insights
 
 ### Key Findings
-- **Sleep Duration and Stress Level**: Higher stress levels were negatively correlated with sleep quality, while adequate sleep duration showed a positive correlation.
-- **Feature Importance**: The model identified `sleep_duration` and `stress_level` as key predictors of sleep quality.
-- **Model Performance**: The optimized Decision Tree model achieved a low MSE, indicating effective predictive performance.
+
+1. **Sleep Duration and Quality**:
+   - **Sleep Duration Distribution**: Most individuals reported sleeping between 6 and 8 hours, which aligns with higher sleep quality.
+   - ![Quality of Sleep by Sleep Duration](Quality%20of%20Sleep%20by%20Sleep%20Duration.PNG)
+
+2. **Stress Level and Sleep Quality**:
+   - High stress levels were associated with lower sleep quality.
+   - ![Quality of Sleep by Stress Level](Quality%20of%20Sleep%20by%20Stress%20Level.PNG)
+
+3. **Correlation and Feature Importance**:
+   - Stress level showed a strong negative correlation with sleep quality.
+   - Physical activity and sleep duration positively influenced sleep quality.
 
 ### Conclusion
+- **Optimal Sleep Duration**: Aim for 7-8 hours per night for optimal sleep quality.
+- **Lifestyle Recommendations**: Engage in regular physical activity and practice stress management techniques for better sleep quality.
 
-This analysis highlights several important factors that contribute to optimal sleep quality. Using the dataset's insights, we can draw specific recommendations around sleep duration, physical activity, and stress management to improve sleep quality effectively.
+---
 
-1. **Optimal Sleep Duration**:
-   - **Ideal Range**: Analysis results suggest that **7 to 8 hours of sleep** per night is associated with the highest sleep quality. Those sleeping within this range generally reported better sleep quality scores, compared to individuals who slept significantly more or less.
-   - **Sleep Duration Impact**: Shorter sleep durations (<5 hours) and very long durations (>9 hours) tend to correlate with reduced sleep quality, potentially due to fragmented sleep or excessive time in bed without quality rest. Therefore, adults aiming for **7 to 8 hours of sleep** are more likely to experience restorative and high-quality sleep, aligning with widely recommended guidelines.
+## 5. How to Run
 
-2. **Impact of Physical Activity**:
-   - **Increased Activity Levels**: Higher levels of physical activity, as measured by both daily steps and overall activity scores, are positively associated with improved sleep quality. Engaging in regular physical exercise, whether through moderate daily steps or structured activities, can help regulate sleep cycles and promote deeper sleep stages.
-   - **Recommendation**: Incorporating at least moderate physical activity into daily routines can positively impact sleep, enhancing overall sleep quality and duration.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/lunalee1802/sleep_quality.git
 
-3. **Stress Management**:
-   - **Stress-Sleep Relationship**: There is a clear negative correlation between stress levels and sleep quality, meaning that higher stress levels tend to decrease sleep quality. Persistent stress can contribute to difficulty in falling asleep, frequent waking, and overall reduced sleep quality.
-   - **Practical Steps**: Stress management techniques—such as mindfulness meditation, deep breathing exercises, or physical relaxation practices—can be beneficial. Reducing stress, especially in the hours leading up to bedtime, may help improve both the quality and consistency of sleep.
-
-### Summary Recommendations
-To optimize sleep quality based on these insights, it is recommended to:
-- Aim for **7 to 8 hours of sleep per night**, aligning with the optimal range observed in this analysis.
-- Include regular physical activity in daily routines, such as **walking or moderate exercise**, which supports sleep regularity and quality.
-- Manage stress proactively using techniques like **relaxation exercises or mindfulness**, especially in the evening, to reduce sleep disturbances.
-
-By incorporating these strategies, individuals can create a balanced lifestyle that supports both physical and mental well-being through improved sleep quality.
 
 
 
