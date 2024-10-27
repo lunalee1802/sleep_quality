@@ -47,9 +47,7 @@ After the initial SQL preparation, Python was used to perform data visualization
 - Loaded the cleaned CSV file and conducted exploratory data analysis (EDA) to understand the distribution and relationships between variables.
 - Generated visualizations for key variables:
   
-  - **Distribution of Sleep Duration**:
-  
-    ![Distribution of Sleep Duration](Distribution%20of%20Sleep%20Duration.PNG)
+  - **Distribution of Sleep (images/Distribution_of_Sleep_Duration.PNG)![Distribution of Sleep Duration](Distribution%20of%20Sleep%20Duration.PNG)
   
   - **Average Quality of Sleep by Physical Activity Level**:
   
