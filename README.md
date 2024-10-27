@@ -47,18 +47,20 @@ After the initial SQL preparation, Python was used to perform data visualization
 - Loaded the cleaned CSV file and conducted exploratory data analysis (EDA) to understand the distribution and relationships between variables.
 - Generated visualizations for key variables:
   
-  - **Distribution of Sleep (images/Distribution_of_Sleep_Duration.PNG)![Distribution of Sleep Duration](Distribution%20of%20Sleep%20Duration.PNG)
+  - **Distribution of Sleep**:
+  
+    ![Distribution of Sleep Duration](images/Distribution_of_Sleep_Duration.PNG)
   
   - **Average Quality of Sleep by Physical Activity Level**:
   
-    ![Average Quality of Sleep by Physical Activity Level](Average%20Quality%20of%20Sleep%20by%20Physical%20Activity%20Level.PNG)
+    ![Average Quality of Sleep by Physical Activity Level](images/Average_Quality_of_Sleep_by_Physical_Activity_Level.PNG)
 
 #### 3.2 Correlation Analysis and Hypothesis Testing
 - Created a correlation matrix heatmap to observe relationships between numeric variables.
 
   - **Correlation Matrix**:
   
-    ![Correlation Matrix](Correlation%20Matrix.PNG)
+    ![Correlation Matrix](images/Correlation_Matrix.PNG)
 
 #### 3.3 Decision Tree Modeling
 - **Model Training**: Trained a Decision Tree Regressor using key features like `sleep_duration`, `stress_level`, and `physical_activity_level`.
@@ -70,7 +72,7 @@ After the initial SQL preparation, Python was used to perform data visualization
 
   - **Feature Importance in Predicting Sleep Quality**:
   
-    ![Feature Importance in Predicting Sleep Quality](Feature%20Importance%20in%20Predicting%20Sleep%20Quality.PNG)
+    ![Feature Importance in Predicting Sleep Quality](images/Feature_Importance_in_Predicting_Sleep_Quality.PNG)
 
 ---
 
@@ -80,11 +82,11 @@ After the initial SQL preparation, Python was used to perform data visualization
 
 1. **Sleep Duration and Quality**:
    - **Sleep Duration Distribution**: Most individuals reported sleeping between 6 and 8 hours, which aligns with higher sleep quality.
-   - ![Quality of Sleep by Sleep Duration](Quality%20of%20Sleep%20by%20Sleep%20Duration.PNG)
+   - ![Quality of Sleep by Sleep Duration](images/Quality_of_Sleep_by_Sleep_Duration.PNG)
 
 2. **Stress Level and Sleep Quality**:
    - High stress levels were associated with lower sleep quality.
-   - ![Quality of Sleep by Stress Level](Quality%20of%20Sleep%20by%20Stress%20Level.PNG)
+   - ![Quality of Sleep by Stress Level](images/Quality_of_Sleep_by_Stress_Level.PNG)
 
 3. **Correlation and Feature Importance**:
    - Stress level showed a strong negative correlation with sleep quality.
@@ -101,7 +103,3 @@ After the initial SQL preparation, Python was used to perform data visualization
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/lunalee1802/sleep_quality.git
-
-
-
-
