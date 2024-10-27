@@ -6,7 +6,9 @@ This project analyzes factors affecting sleep quality using SQL for data prepara
 
 ## 1. Project Overview
 
-- **Dataset**: The dataset contains information on sleep duration, physical activity, stress level, and other health metrics.
+- **Motivation**: I personally struggled with maintaining adequate sleep, often feeling that short sleep duration impacted my daily life. This project aims to identify the ideal sleep duration and other lifestyle factors that contribute to optimal sleep quality.
+- **Dataset**: [Sleep, Health, and Lifestyle Dataset on Kaggle](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset)
+  - This dataset contains information on sleep duration, physical activity, stress levels, and other health metrics related to sleep quality.
 - **Objective**: Understand the key factors that impact sleep quality and build a model to predict sleep quality based on these factors.
 - **Tools Used**: 
   - **SQL**: Data cleaning, aggregation, and exporting for further analysis.
